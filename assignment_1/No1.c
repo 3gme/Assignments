@@ -12,5 +12,6 @@ int main(){
     printf("Birh Year: 2004\n");
     printf("Faculty: faculty of engineering\n");
     printf("Graduation Year: 2027\n");
+    printf("mahmoud); 
     return 0;
 }
