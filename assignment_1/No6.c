@@ -13,6 +13,9 @@ int main()
     printf("the arithmetical operation \n");
     printf("x * y = %d \n", x*y);
     float res = (float)x / (float)y ;
+    if(y==0) 
+        printf("the division isn't available \"x/0\" \n");
+    else
     printf("x / y = %.2f \n",res);
     printf("x + y = %d \n", x+y);
     printf("x - y = %d \n", x-y);
