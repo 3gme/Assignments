@@ -8,7 +8,7 @@ f(n) = f(n - 1) + F(n - 2), f(0) = 0, f(1) = 1.
 
 //fibonacci: 0 1 1 2 3 5 8 .......
 int get_fibonacci(int i){
-    if (i==1) return 1;
+    if (i<=1) return i;
     return 2*i-3;
 }
 
@@ -17,7 +17,6 @@ int main()
     printf("enter a number to get the fibonacci: ");
     int n;
     scanf("%d",&n);
-    if(n==0) printf("no numbers before 0 in fibonacci theory");
-    else printf("the fibonacci is : %d",get_fibonacci(n));
+    printf("the fibonacci is : %d",get_fibonacci(n));
 
 }
